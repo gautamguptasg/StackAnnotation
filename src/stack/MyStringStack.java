@@ -37,12 +37,12 @@ public class MyStringStack {
     	String result = v.lastElement();
     	v.remove(result);
     	System.out.println("hello");
-    	return result;
+    	//return result;
 
-        //return v.lastElement();
+        return v.lastElement();
     }
     public boolean isEmpty() {
-        //return v.isEmpty();
+        return v.isEmpty();
     }
     public void clear() {
         v = new Vector<String> ();
