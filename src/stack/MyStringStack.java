@@ -1,4 +1,4 @@
-//package stack;
+package stack;
 
 
 import java.util.NoSuchElementException;
@@ -42,7 +42,7 @@ public class MyStringStack {
         //return v.lastElement();
     }
     public boolean isEmpty() {
-        return v.isEmpty();
+        //return v.isEmpty();
     }
     public void clear() {
         v = new Vector<String> ();
